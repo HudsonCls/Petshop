@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Produtos - Pet Shop Apollo</title>
+    <link rel="stylesheet" href="css/produtos.css">
+</head>
+<body background="./IMAGENS/Nova pasta/background/2148949590.jpg">
+
+<!-- ===================== Título da aba ================-->
+    <header>
+        <h1> 🐾Produtos para Pets</h1>
+        <!-- ===================== Logo fixada na lateral esquerda ================-->
+            <img id="logo" src="./IMAGENS/apollo petshop.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="home.html"> Home</a></li>
+                <li><a href="carrinho.html" > Carrinho</a></li>
+                <li><a href="contato.html" > Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+<!-- ===================== Rações para Cachorro ===================== -->
+<div  class="produtos">
+
+    <!-- Produto: Ração Cachorro Adulto Carne -->
+    <div class="produto">
+        <img src="./IMAGENS/WhatsApp Image 2025-06-11 at 11.43.34.jpeg" alt="Ração Cachorro Carne" width="150">
+        <h3>Ração Cachorro Adulto Carne</h3>
+        <p>Ração sabor carne para cães adultos de médio porte.</p>
+        <p><strong>R$ 135,00</strong></p>
+        <button onclick="adicionarAoCarrinho('Ração Cachorro Adulto Carne', 135.00)">Adicionar ao Carrinho</button>
+    </div>
+    
+    <!-- Produto: Ração para Cachorro Sênior -->
+
+    <div class="produto">
+        <img id="Rdog" src="./IMAGENS/Nova pasta/ração senior.png" alt="Ração para Cachorro" width="150">
+        <h3>Ração para Cachorro Sênior</h3>
+        <p>Ração para cães idosos porte grande sabor frango e arroz.</p>
+        <p><strong>R$ 240,00</strong></p>
+        <button onclick="adicionarAoCarrinho('Ração para Cachorro', 240)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- Produto: Ração Cão Adulto Frango e Arroz -->
+    <div class="produto">
+        <img src="./IMAGENS/WhatsApp Image 2025-06-11 at 11.43.34 (2).jpeg" alt="Ração Frango e Arroz" width="150">
+        <h3>Ração Cão Adulto Frango e Arroz</h3>
+        <p>Ração balanceada com frango e arroz para cães adultos.</p>
+        <p><strong>R$ 125,90</strong></p>
+        <button onclick="adicionarAoCarrinho('Ração Cão Adulto Frango e Arroz', 125.90)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- Produto: Ração Cachorro Castrado -->
+    <div class="produto">
+        <img src="IMAGENS/WhatsApp Image 2025-06-11 at 11.43.34 (1).jpeg" alt="Ração Cachorro Castrado" width="150">
+        <h3>Ração Cachorro Castrado</h3>
+        <p>Fórmula especial para cães castrados com baixo teor de gordura.</p>
+        <p><strong>R$ 132,00</strong></p>
+        <button onclick="adicionarAoCarrinho('Ração Cachorro Castrado', 132.00)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- Produto: Ração Filhote Raças Pequenas -->
+    <div class="produto">
+        <img src="IMAGENS/WhatsApp Image 2025-06-11 at 11.43.34 (4).jpeg" alt="Ração Filhote" width="150">
+        <h3>Ração Filhote Raças Pequenas</h3>
+        <p>Ração rica em nutrientes para filhotes de raças pequenas.</p>
+        <p><strong>R$ 118,75</strong></p>
+        <button onclick="adicionarAoCarrinho('Ração Filhote Raças Pequenas', 118.75)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- Produto: Ração Hipoalergênica para Cães -->
+    <div class="produto">
+        <img src="IMAGENS/WhatsApp Image 2025-06-11 at 11.43.35 (1).jpeg" alt="Ração Hipoalergênica" width="150">
+        <h3>Ração Hipoalergênica para Cães</h3>
+        <p>Ração especial para cães com alergias, sem corantes.</p>
+        <p><strong>R$ 145,60</strong></p>
+        <button onclick="adicionarAoCarrinho('Ração Hipoalergênica para Cães', 145.60)">Adicionar ao Carrinho</button>
+    </div>   
+
+    <!-- Produto: Ração Cão Ativo Carne e Vegetais -->
+    <div class="produto">
+        <img src="IMAGENS/WhatsApp Image 2025-06-11 at 11.43.35.jpeg" alt="Ração Cão Ativo" width="150">
+        <h3>Ração Cão Ativo Carne e Vegetais</h3>
+        <p>Ração energética para cães ativos e de alta atividade física.</p>
+        <p><strong>R$ 138,90</strong></p>
+        <button onclick="adicionarAoCarrinho('Ração Cão Ativo Carne e Vegetais', 138.90)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- ===================== Rações para Gato ===================== -->
+
+    <!-- Produto: Ração Gato Adulto Frango -->
+    <div class="produto">
+        <img src="IMAGENs/WhatsApp Image 2025-06-12 at 10.36.40.jpeg" alt="Ração Gato Frango" width="150">
+        <h3>Ração Gato Adulto Frango</h3>
+        <p>Ração premium sabor frango para gatos adultos.</p>
+        <p><strong>R$ 89,90</strong></p>
+        <button onclick="adicionarAoCarrinho('Ração Gato Adulto Frango', 89.90)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- Produto: Ração Gato Indoor -->
+    <div class="produto">
+        <img src="IMAGENS/WhatsApp Image 2025-06-12 at 10.36.53.jpeg" alt="Ração Gato Indoor" width="150">
+        <h3>Ração Gato Indoor</h3>
+        <p>Ração super premium para gatos que vivem dentro de casa.</p>
+        <p><strong>R$ 119,90</strong></p>
+        <button onclick="adicionarAoCarrinho('Ração Gato Indoor', 119.90)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- Produto: Ração Gato Premium Sabor Cordeiro -->
+    <div class="produto">
+        <img id="Rcordeiro" src="IMAGENS/WhatsApp Image 2025-06-12 at 10.26.20.jpeg" alt="Ração Gato Cordeiro" width="150">
+        <h3>Ração Gato Premium Sabor Cordeiro</h3>
+        <p>Ração sabor cordeiro premium, rica em proteínas.</p>
+        <p><strong>R$ 108,40</strong></p>
+        <button onclick="adicionarAoCarrinho('Ração Gato Premium Sabor Cordeiro', 108.40)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- Produto: Ração para Gato (Premium) -->
+    <div class="produto">
+        <img id="Rgato" src="./IMAGENS/Nova pasta/gran plus adulto.png" alt="Ração para Gato" width="150">
+        <h3>Ração para Gato</h3>
+        <p>Ração premium para gatos adultos, favorece saúde urinária e pelagem.</p>
+        <p><strong>R$ 120,00</strong></p>
+        <button onclick="adicionarAoCarrinho('Ração para Gato', 120)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- Produto: Ração para Gato Sabor Peixe para Filhotes -->
+    <div class="produto">
+        <img id="Rgato" src="./IMAGENS/Ração gato filhote.jpeg" alt="Ração para Gato" width="150">
+        <h3>Ração para Gato</h3>
+        <p>Ração Sabor Peixe auxilia no desenvolvimento saudável dos filhotes.</p>
+        <p><strong>R$ 74.30</strong></p>
+        <button onclick="adicionarAoCarrinho('Ração para Gato', 120)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- ===================== Brinquedos ===================== -->
+
+    <!-- Produto: Brinquedo para Cachorro -->
+    <div class="produto">
+        <img id="Bdog" src="./IMAGENS/Nova pasta/brinquedo bola.png" alt="Brinquedo para Cachorro" width="150">
+        <h3>Brinquedo para Cachorro</h3>
+        <p>Bola resistente e colorida para diversão e passatempo .</p>
+        <p><strong>R$ 80,00</strong></p>
+        <button onclick="adicionarAoCarrinho('Brinquedo para Cachorro', 80)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- Produto: Brinquedo para Gato -->
+    <div class="produto">
+        <img id="Bcat" src="./IMAGENS/brinquedo gato rato.jpeg" alt="Brinquedo para Gato" width="150">
+        <h3>Brinquedo para Gato</h3>
+        <p>Brinquedo em formato de rato para diversão e estímulo.</p>
+        <p><strong>R$ 30,00</strong></p>
+        <button onclick="adicionarAoCarrinho('Brinquedo para Gato', 30)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- Produto: Brinquedo Varinha para Gato -->
+    <div class="produto">
+        <img id="Bcat" src="./IMAGENS/Brinquedo gato.jpeg" alt="Brinquedo Varinha" width="150">
+        <h3>Varinha para Gato</h3>
+        <p>Varinha com penas para estimular o instinto de caça .</p>
+        <p><strong>R$ 32,90</strong></p>
+        <button onclick="adicionarAoCarrinho('Brinquedo Varinha para Gato', 32.90)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- ===================== Coleiras ===================== -->
+
+    <!-- Produto: Coleira para Cachorro -->
+    <div class="produto">
+        <img id="Cdog" src="./IMAGENS/Coleira dog.jpeg" alt="Coleira para Cachorro" width="150">
+        <h3>Coleira para Cachorro</h3>
+        <p>Coleira resistente, ajustável e confortável para cães.</p>
+        <p><strong>R$ 50,00</strong></p>
+        <button onclick="adicionarAoCarrinho('Coleira para Cachorro', 50)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- Produto: Coleira de Couro para Cachorro -->
+    <div class="produto">
+        <img id="Cdog" src="IMAGENS/WhatsApp Image 2025-06-12 at 10.36.31.jpeg" alt="Coleira Cachorro" width="150">
+        <h3>Peitoral para Cachorro</h3>
+        <p>Coleira ajustável com peitoral para cães médios e grandes.</p>
+        <p><strong>R$ 58,00</strong></p>
+        <button onclick="adicionarAoCarrinho('Coleira de Couro para Cachorro', 58.00)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- Produto: Coleira para Gato -->
+    <div class="produto">
+        <img id="Ccat" src="./IMAGENS/Coleira gato.jpeg" alt="Coleira para Gato" width="150">
+        <h3>Coleira para Gato</h3>
+        <p>Coleira com Plaqueta de Identificação para gatos.</p>
+        <p><strong>R$ 40,00</strong></p>
+        <button onclick="adicionarAoCarrinho('Coleira para Gato', 40)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- ===================== Camas ===================== -->
+
+    <!-- Produto: Cama para Cachorro -->
+    <div class="produto">
+        <img id="CamaC" src="./IMAGENS/Cama dog.jpeg" alt="Cama para Cachorro" width="150">
+        <h3>Cama para Cachorro</h3>
+        <p>Cama super confortável e espaçosa para cães de grande porte, com tecido macio, base antiderrapante e fácil de lavar.</p>
+        <p><strong>R$ 200,00</strong></p>
+        <button onclick="adicionarAoCarrinho('Cama para Cachorro', 200)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- Produto: Cama para Gato -->
+    <div class="produto">
+        <img id="CamaG" src="./IMAGENS/Cama gato.jpeg" alt="Cama para Gato" width="150">
+        <h3>Cama para Gato</h3>
+        <p>Cama de luxo confortável para gatos, com base antiderrapante e almofada removível.</p>
+        <p><strong>R$ 180,00</strong></p>
+        <button onclick="adicionarAoCarrinho('Cama para Gato', 180)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- ===================== Higiene ===================== -->
+
+    <!-- Produto: Shampoo Antipulgas para Cães -->
+    <div class="produto">
+        <img src="IMAGENS/WhatsApp Image 2025-06-12 at 10.36.23.jpeg" alt="Shampoo Antipulgas" width="150">
+        <h3>Shampoo Antipulgas para Cães</h3>
+        <p>Elimina pulgas e carrapatos com fórmula suave e eficaz.</p>
+        <p><strong>R$ 34,90</strong></p>
+        <button onclick="adicionarAoCarrinho('Shampoo Antipulgas para Cães', 34.90)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- Produto: Sabonete Glicerinado para Gatos -->
+    <div class="produto">
+        <img id="Hgato" src="IMAGENS/WhatsApp Image 2025-06-12 at 10.38.55.jpeg" alt="Sabonete Glicerinado" width="150">
+        <h3>Sabonete Glicerinado para Gatos</h3>
+        <p>Sabonete hipoalergênico com fragrância suave, ideal para peles sensíveis.</p>
+        <p><strong>R$ 19,90</strong></p>
+        <button onclick="adicionarAoCarrinho('Sabonete Glicerinado para Gatos', 19.90)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- Produto: Condicionador Hidratante Pet -->
+    <div class="produto">
+        <img id="Hgato" src="IMAGENS/WhatsApp Image 2025-06-12 at 10.38.36.jpeg" alt="Condicionador Pet" width="150">
+        <h3>Condicionador Hidratante Pet</h3>
+        <p>Deixa os pelos macios e brilhantes, com extrato de camomila.</p>
+        <p><strong>R$ 27,50</strong></p>
+        <button onclick="adicionarAoCarrinho('Condicionador Hidratante Pet', 27.50)">Adicionar ao Carrinho</button>
+    </div>
+
+    <!-- Produto: Kit Banho Completo Pet -->
+    <div class="produto">
+        <img id="Hgato" src="IMAGENS/WhatsApp Image 2025-06-12 at 10.38.40.jpeg" alt="Kit Banho Pet" width="150">
+        <h3>Kit Banho Completo Pet</h3>
+        <p>Kit com shampoo, condicionador, escova e toalha para banho completo do seu pet.</p>
+        <p><strong>R$ 79,90</strong></p>
+        <button onclick="adicionarAoCarrinho('Kit Banho Completo Pet', 79.90)">Adicionar ao Carrinho</button>
+    </div>
+
+</div>
+    <script src="./JAVASCRIPT/carrinho.js"></script>
+</body>
+</html>

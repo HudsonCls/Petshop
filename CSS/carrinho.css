@@ -1,0 +1,163 @@
+/* Define box-sizing para todos os elementos */
+* {
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    background-color: #7ac5cd;
+    max-width: 600px;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #f5f5f5;
+    margin-bottom: 30px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Container principal do carrinho */
+.carrinho {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 119, 182, 0.2);
+}
+
+/* Remove marcadores e espaçamento da lista do carrinho */
+.carrinho ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+/* Itens da lista do carrinho */
+.carrinho li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Botões dentro dos itens do carrinho */
+.carrinho li button {
+    margin-left: 5px;
+    padding: 4px 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00bcd4;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efeito hover para botões dos itens do carrinho */
+.carrinho li button:hover {
+    background-color: #0097a7;
+}
+
+/* Parágrafos dentro do carrinho */
+.carrinho p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Elementos select */
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Estiliza botões gerais */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #3aafa9;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efeito hover para botões gerais */
+button:hover {
+    background-color:  #3aa09c;
+}
+
+/* Estiliza o último botão (esvaziar carrinho) */
+button:last-of-type {
+    background-color: #da4c3c;
+}
+
+/* Efeito hover para o último botão */
+button:last-of-type:hover {
+    background-color: #9e3024;
+}
+
+/* Efeito hover para links */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container para botões de quantidade */
+.botoes-quantidade {
+    display: flex;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+/* Estiliza links gerais */
+a{
+    display: block;
+    text-align:left;
+    margin-top: 20px;
+    text-decoration: none;
+    color:#7ac5cd;
+    font-weight: bold;
+}
+
+/* Container para botões na parte inferior */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Estiliza botão de voltar para home */
+a.home-button {
+    display:block;
+    text-align:right;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #7ac5cd;
+    font-weight: bold;
+}
+
+/* Efeito hover para botão de home */
+a.home-button:hover {
+    text-decoration: underline;
+}

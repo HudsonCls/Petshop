@@ -1,0 +1,65 @@
+/* Corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container  */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #7ac5cd;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #fff;
+}
+
+/* Conteúdo principal */
+main {
+    background-color: #ebf8faf2;
+    padding: 2rem;
+    border: 1px solid #7ac5cd;
+    border-top: none;
+    border-radius: 8px 8px;
+    margin-top: 5px;
+}
+
+/* Remove margem superior dos títulos dentro do main */
+main h2 {
+    margin-top: 0;
+}
+
+/* Todos os links */
+a {
+    color: #001866;
+    text-decoration: none;
+}
+
+/* Botão de home */
+a.home-button{
+    display: inline-block;
+    background-color: #7ac5cd;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
+    border: #fff solid 1px;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #5f9ea0;
+}

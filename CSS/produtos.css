@@ -1,0 +1,154 @@
+/* Reset básico */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing:content-box
+}
+
+/* Corpo */
+body {
+     font-family: 'Segoe UI', sans-serif;
+     background-color: #fefefe;
+     color: #333;
+     line-height: 1.6;
+     padding: 20px;
+}
+
+/* Área do cabeçalho */
+header {
+    background-color: #7ac5cd; /* Fundo do cabeçalho */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    border-radius: 10px; /* Bordas arredondadas */
+    border: #fff solid 1px; /* Borda branca */
+}
+
+
+header h1 {
+    font-size: 2em; /* Tamanho da fonte */
+    color: #fff; /* Cor do texto */
+}
+
+/* Logo fixo no canto inferior esquerdo */
+#logo {
+     position: fixed;
+     left: 20px;
+     bottom: 20px;
+     width: 60px;
+     height: 60px;
+     border-radius: 3px;
+     border: #8050094b solid;
+     z-index: 1000;
+}
+/* Lista de navegação */
+
+nav ul {
+    list-style: none; /* Remove marcadores da lista */
+    text-decoration: none; /* Remove sublinhado */
+    display: flex; /* Layout flexível */
+    justify-content: center; /* Centraliza itens */
+    gap: 20px; /* Espaçamento entre itens */
+}
+
+/* Links do menu de navegação */
+nav a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #fff; /* Cor do link */
+    font-weight: bold; /* Negrito */
+    transition: color 0.3s; /* Transição suave de cor */
+}
+
+nav a:hover {
+    color: #383838; /* Cor ao passar o mouse */
+}
+
+
+
+/* Container dos produtos */
+.produtos {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap:50px;
+     margin-top: 20px;
+}
+
+/* Cartão individual de produto */
+.produto {
+     background-color: #ebf8faf2; /* Fundo levemente azul */
+     border: 1px solid #ddd;
+     border-radius: 10px;
+     padding: 15px;
+     width: 220px;
+     text-align: center;
+     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+     transition: transform 0.2s ease;
+}
+
+/* Efeito ao passar o mouse no produto */
+.produto:hover {
+     transform: translateY(-5px);
+}
+
+/* Imagem do produto */
+.produto img {
+     border-radius: 6px;
+     margin-bottom: 10px;
+}
+
+/* Nome do produto */
+.produto h3 {
+     font-size: 18px;
+     margin: 10px 0 5px;
+}
+
+/* Descrição/preço do produto */
+.produto p {
+     margin: 5px 0;
+}
+
+/* ========================= BOTÃO "ADICIONAR AO CARRINHO"  ========================= */
+.produto button {
+     background-color: #27ae60;
+     color: white;
+     border: none;
+     padding: 8px 12px;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s;
+}
+
+/* Hover do botão */
+.produto button:hover {
+     background-color: #219150;
+}
+
+/* ========================= LINKS GERAIS  ========================= */
+
+/* Estilo geral dos links */
+a {
+     display: block;
+     text-align: center;
+     margin-top: 30px;
+     font-size: 16px;
+     color: #2980b9;
+     text-decoration: none;
+}
+
+/* Hover dos links gerais */
+a:hover {
+     text-decoration: underline;
+}
+
+/* ========================= TAMANHOS ESPECÍFICOS DAS IMAGENS DOS PRODUTOS ========================= */
+
+#Bdog, #Bcat, #Cdog, #Ccat, #CamaC, #CamaG, #Hgato {
+     width: 220px;
+     height: 230px;
+}
+
+#Rgato, #Rdog, #Rcordeiro {
+     width: 130px;
+     height: 150px;
+}
+

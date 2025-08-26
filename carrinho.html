@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrinho - Pet Shop Apollo</title>
+    <!-- Link para o arquivo CSS do carrinho -->
+    <link rel="stylesheet" href="./CSS/carrinho.css">
+</head>
+<!-- Define a imagem de fundo da página -->
+<body background="./IMAGENS/Nova pasta/background/2148949590.jpg">
+    <h1>Carrinho de Compras</h1>
+
+<div class="carrinho">
+    <!-- Lista de itens do carrinho -->
+    <ul id="itensCarrinho">
+        <li>Nenhum item no carrinho.</li>
+    </ul>
+
+    <!-- Exibe o valor total do carrinho -->
+    <p><strong>Total: R$ <span id="totalCarrinho">0.00</span></strong></p>
+
+        <!-- Seleção da forma de pagamento -->
+        <h3>Forma de Pagamento</h3>
+        <select id="formaPagamento">
+            <option value="debito">Débito</option>
+            <option value="credito">Crédito</option>
+            <option value="pix">PIX</option>
+        </select>
+
+        <br><br>
+        <!-- Botão para finalizar a compra -->
+        <button onclick="finalizarCompra()">Finalizar Compra</button>
+        <br><br>
+        <!-- Botão para esvaziar o carrinho -->
+        <button onclick="limparCarrinho()">🗑️ Esvaziar Carrinho</button>
+        <br><br>
+        <div class="button-container">
+            <!-- Link para voltar à página de produtos -->
+            <a id="Voltar" href="produtos.html">Voltar para produtos</a>
+            <!-- Link para voltar à página inicial -->
+            <a href="home.html" class="home-button">🏠 Home</a>
+        </div>
+    </div>
+
+    <!-- Script JavaScript do carrinho -->
+    <script src="./JAVASCRIPT/carrinho.js"></script>
+</body>
+</html>

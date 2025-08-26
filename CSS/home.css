@@ -1,0 +1,172 @@
+/* Reset básico */
+* {
+    margin: 0; /* Remove margens padrão */
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif; /* Fonte principal */
+    background-color: #fefefe; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+    line-height: 1.6; /* Altura da linha */
+    padding: 20px; /* Espaçamento interno */
+}
+
+header {
+    background-color: #7ac5cd; /* Fundo do cabeçalho */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    border-radius: 10px; /* Bordas arredondadas */
+    border: #fff solid 1px; /* Borda branca */;
+}
+
+header h1 {
+    font-size: 2em; /* Tamanho da fonte */
+    color: #fff; /* Cor do texto */
+}    
+
+nav ul {
+    list-style: none; /* Remove marcadores da lista */
+    display: flex; /* Layout flexível */
+    justify-content: center; /* Centraliza itens */
+    gap: 20px; /* Espaçamento entre itens */
+    margin-top: 10px; /* Espaço acima */
+}    
+
+nav a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #fff; /* Cor do link */
+    font-weight: bold; /* Negrito */
+    transition: color 0.3s; /* Transição suave de cor */
+}    
+
+nav a:hover {
+    color: #383838; /* Cor ao passar o mouse */
+}    
+
+#sobre-nos {
+    background-color: rgb(245, 255, 254); /* Fundo da seção Sobre Nós */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+}    
+
+/* Destaques */
+
+.destaque {
+    display: flex; /* Layout flexível */
+    gap: 105px; /* Espaço entre itens */
+    list-style: none; /* Remove marcadores */
+    padding: 0; /* Remove preenchimento */
+    margin: 0; /* Remove margem */
+    justify-content: flex-start; /* Alinha itens à esquerda */
+    flex-wrap: wrap; /* Quebra linha se necessário */
+}
+.destaque li {
+    background: #fff; /* Fundo */
+    border: 1px solid #eee; /* Borda clara */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 2px 8px #0001; /* Sombra */
+    padding: 16px; /* Espaçamento interno */
+    text-align: center; /* Centraliza texto */
+    transition: box-shadow 0.2s; /* Transição suave de sombra */
+    width: 200px; /* Largura fixa */
+}
+.destaque li:hover {
+    box-shadow: 0 4px 16px #0002; /* Sombra mais forte ao passar o mouse */
+}
+.destaque img {
+    width: 210px; /* Largura da imagem */
+    height: 220px; /* Altura da imagem */
+    object-fit: cover; /* Cobre o espaço mantendo proporção */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin-bottom: 10px; /* Espaço abaixo */
+    display: block; /* Exibe como bloco */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto;
+}
+.destaque a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #333; /* Cor do link */
+    display: flex; /* Layout flexível */
+    flex-direction: column; /* Coluna */
+    align-items: center; /* Centraliza itens */
+    gap: 8px; /* Espaço entre itens */
+}
+.destaque p {
+    font-weight: 600; /* Negrito */
+    font-size: 1.05em; /* Tamanho da fonte */
+}
+.botao-centralizado {
+    width: 100%; /* Largura total */
+    display: flex; /* Layout flexível */
+    justify-content: center; /* Centraliza conteúdo */
+    right: 10px; /* Posicionar à direita */
+    margin-top: 32px; /* Espaço acima */
+}
+.btn-produtos {
+    background-color:#7ac5cd; /* Fundo */
+    color: #fff; /* Cor do texto */
+    padding: 8px 15px; /* Espaçamento interno */
+    border: white 1px solid; /* Borda branca */
+    border-radius: 15px; /* Bordas arredondadas */
+    font-size: 1.1em; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    text-decoration: none; /* Remove sublinhado */
+    cursor: pointer; /* Cursor de ponteiro */
+    
+}
+.btn-produtos:hover {
+    background:#65a5ac; /* Cor ao passar o mouse */
+    box-shadow: 0 4px 16px #0003; /* Sombra mais forte */
+}
+
+
+section {
+    margin-top: 30px; /* Espaço acima */
+    margin-bottom: 30px; /* Espaço abaixo */
+    padding: 25px; /* Espaçamento interno */
+    background-color: #f3fbfcf2; /* Fundo da seção */
+    border-radius: 10px; /* Bordas arredondadas */
+    
+}            
+
+h2 {
+    color: #333; /* Cor do título */
+    margin-bottom: 10px; /* Espaço abaixo */
+    -webkit-text-stroke-width: 0.2px; /* Contorno do texto */
+    -webkit-text-stroke-color: #575757; /* Cor do contorno */
+}        
+
+/* Estiliza o elemento blockquote para destacar citações */
+blockquote {
+    font-style: italic; /* Itálico */
+    background-color: #fff; /* Fundo */
+    padding: 10px; /* Espaçamento interno */
+    border-left: 5px solid  #7ac5cd; /* Barra lateral colorida */
+    margin: 10px 0; /* Espaço acima e abaixo */
+}    
+
+
+/* Logo fixo no canto inferior esquerdo */
+#logo {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 3px;
+    border: #8050094b solid;
+    z-index: 1000;
+}
+
+.localizacao {
+    background-color: #fff; /* Fundo */
+    border-radius: 8px; /* Bordas arredondadas */
+    border: #333; /* Borda (incompleta, faltou estilo e largura) */
+}
+.desenvolvido {
+    font-style: italic; /* Itálico */
+    background-color: #fff; /* Fundo */
+    padding: 10px; /* Espaçamento interno */
+    border-left: 5px solid  #7ac5cd; /* Barra lateral colorida */
+    margin: 10px 0; /* Espaço acima e abaixo */
+}
