@@ -76,7 +76,7 @@ if (!isset($_SESSION['user_id'])) {
 
 		<section>
 			<p><a href="logout.php">Sair</a></p>
-			<button onclick="window.location.href='/petshop/Trabalho Final - Petshop/home.html'">Ir para Home</button>
+			<button onclick="window.location.href='/petshop/Trabalho Final - Petshop/index.html'">Ir para Home</button>
 		</section>
 	</div>
 </body>
